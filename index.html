@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day1-CSS</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1 style="text-align: center;">CSS INTERVIEW QUESTIONS</h1>
+    <h1 style="text-align: center;">Day1</h1>
+    <h3>1. Difference between flex row and column?</h3>
+    <p>flex-direction is the property which allows to display the contents in a row, column, row-reverse and column-reverse.</p>
+    <p>flex-direction:row; is used to display all the contents in the horizontal direction. By default, felx-direction value is row.</p>
+    <p>flex-direction:column; is used to display all the contents in the vertical direction.</p>
+    <b>for example:</b>
+    <table>
+        <tr>
+            <th style="text-decoration: underline;">flex-direction:row;</th>
+            <th style="text-decoration: underline;">flex-direction:column;</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="row">
+                    <div class="child1">bonjour</div>
+                    <div class="child2">hello</div>
+                    <div class="child3">hola</div>
+                </div>
+            </td>
+            <td>
+                <div class="column">
+                    <div class="child1">bonjour</div>
+                    <div class="child2">hello</div>
+                    <div class="child3">hola</div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <h3>2. Explain inline, internal and external stylesheet?</h3>
+    <p><b>Inline:</b>&nbsp;inline stylesheet is used as style as an attribute with in the tag and is given first preference. </p>  
+    <p><b>Internal:</b>&nbsp;internal stylesheet is used as a style tag with in the head tag in html file and is given second preference.</p>
+    <p><b>External:</b>&nbsp;external stylesheet is used as a separate file with .css extention and is linked with link tag in the html file and is given last preference.</p>  
+    <h3>3. Justify-content allows you to do what?</h3>
+    <p>Justify-content property specifies how flex items are distributed along the main axis of the parent container.</p>
+    <p>flex-start is the default value for Justify-content property.</p>
+    <table>
+        <tr>
+            <th>flex-start</th>
+<td><div class="flex-start">
+    <div class="child1"></div>
+    <div class="child2"></div>
+    <div class="child3"></div>
+</div></td>
+        </tr>
+        <tr>
+            <th>flex-end</th>
+<td><div class="flex-end">
+    <div class="child1"></div>
+    <div class="child2"></div>
+    <div class="child3"></div>
+</div></td>
+        </tr>
+        <tr>
+            <th>center</th>
+<td><div class="center">
+    <div class="child1"></div>
+    <div class="child2"></div>
+    <div class="child3"></div>
+</div></td>
+        </tr>
+        <tr>
+            <th>space-between</th>
+<td><div class="space-between">
+    <div class="child1"></div>
+    <div class="child2"></div>
+    <div class="child3"></div>
+</div></td>
+        </tr>
+        <tr>
+            <th>space-evenly</th>
+<td><div class="space-evenly">
+    <div class="child1"></div>
+    <div class="child2"></div>
+    <div class="child3"></div>
+</div></td>
+        </tr>
+        <tr>
+            <th>space-around</th>
+<td><div class="space-around">
+    <div class="child1"></div>
+    <div class="child2"></div>
+    <div class="child3"></div>
+</div></td>
+        </tr>
+        <tr>
+            <th>stretch</th>
+<td><div class="stretch">
+    <div class="child1"></div>
+    <div class="child2"></div>
+    <div class="child3"></div>
+</div></td>
+        </tr>
+    </table>
+    <h3>4. Difference between absolute and relative positioning?</h3>
+    <p><b>Position:relative;</b>  takes its starting position from its original place and leaves its place and overlaps on the next containers as per its values.</p>
+    <p><b>Position:absolute;</b> takes its starting position from the top of the web page and overlaps on all the contents as per its values.</p>
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+<br><br><br>
+    <h3>5. What is grid-template-columns used for?</h3>
+    <p><b>grid-template-columns </b>property is used for specifying number of columns in a grid container as well as width of the each columns.</p>
+    <p><b>Syntax for 5 columns:</b>&nbsp;grid-template-columns:  repeat(3,200px) 150px auto ;</p>
+     <h3>6. What is the z-index in CSS?</h3>
+     <p>z-index property is used to specify the index of different div's i.e, which box should come on the top and bottom while ovelapping.</p>
+     <p>The value for z-index are ...-2,-1,0,1,2,... etc,</p>
+        <!-- <div id="box" class="box1"></div>
+        <div id="box" class="box2"></div>
+        <div id="box" class="box3"></div> -->
+    <h3>7. What is the Difference between padding and margin?</h3>
+    <p><b>Padding:</b> padding property is used to provide space around the text or any content in the box as per the size given.</p>
+    <p><b>Margin:</b> margin property is used to provide margin around the box as per the size given.</p>
+     
+</body>
+</html>
